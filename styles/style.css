@@ -2,7 +2,7 @@
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Helvetica Neue', Arial, sans-serif;/* gf */
 }
         .header {
         position: relative;
@@ -15,7 +15,7 @@
         overflow: hidden;
         z-index: 200;
 }
-.logo{
+.logo_place_header{
   position: absolute;
   z-index: 1000; 
   left: 64px;
@@ -23,7 +23,7 @@
   height: 32px;
   width: 183px;
   }
-  .title{  
+.header__title{  
     position: absolute;
     align-self: center;
     z-index: 5;
@@ -35,7 +35,7 @@
     font-weight: bold;
 
   }
-  .subtitle{
+.header__subtitle{
   position: absolute;
   width: 388px;
   left:64px;
@@ -46,18 +46,17 @@
   font-weight: normal;
   z-index: 4;
   }
-  .link{
+.header__link{
   z-index: 4;
   }
-  .main-illustration{
+.header__main-illustration{
   position: absolute;
   right: 0;
   bottom: 0;
   width: 765px;
   height: 608px;
   z-index: 5;
-  }
-.square-pic{
+  }.header__square-pic{
   background-color: #2f80ed;
   position: absolute;
   right: 0;
@@ -66,11 +65,11 @@
   height: 568px;
   z-index: 4;
 }
-      .description{
-      display: flex;
-      justify-content: center;
-      padding-top:100px;
-      }
+.description{
+display: flex;
+justify-content: center;
+padding-top:100px;
+}
 .two-colomns{
 display: flex;
 justify-content: space-between;
