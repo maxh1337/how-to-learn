@@ -1,0 +1,7 @@
+.cards{
+    list-style-type: none;
+    display: flex;
+    margin:auto;
+    flex-wrap: wrap;
+    padding-left:175px;
+  }
