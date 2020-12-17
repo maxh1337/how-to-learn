@@ -4,3 +4,6 @@
     margin-bottom:60px;
     width: 240px;
     }
+    .cards__item:nth-child(3){
+        margin-right: 0;
+    }
