@@ -1,6 +1,10 @@
-
-.header__link{
+.header__link {
     z-index: 4;
-    color:#2f80ed;
+    color: #2f80ed;
     text-decoration: none;
-    }
+}
+
+.header__link:hover {
+    opacity: 0.6;
+    transition: 0.9s ease-in-out;
+}
